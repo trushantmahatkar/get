@@ -1,0 +1,18 @@
+2023-01-05 05:08:42,458  INFO [main] 0:31 - Browser is Opened
+2023-01-05 05:08:42,606  INFO [main] 0:33 - Browser is Maximized
+2023-01-05 05:08:45,336  INFO [main] 0:36 - URL is Opened
+2023-01-05 05:08:46,072  INFO [main] 0:40 - UserName Entered
+2023-01-05 05:08:56,192  INFO [main] 0:43 - Password Entered
+2023-01-05 05:08:56,326  INFO [main] 0:45 - Login Button Clicked
+2023-01-05 05:08:57,815  INFO [main] 0:19 - News: happy new year!!!!
+2023-01-05 05:08:58,457  INFO [main] 0:29 - 2023-01-05 05:08:57
+2023-01-05 05:08:59,641  INFO [main] 0:40 - Language is changed
+2023-01-05 05:09:01,667  INFO [main] 0:49 - Profile Icon is Clicked
+2023-01-05 05:09:01,668  INFO [main] 0:50 - Profile is Clicked
+2023-01-05 05:09:01,668  INFO [main] 0:51 - My Profile Page is Opened
+2023-01-05 05:09:06,585  INFO [main] 0:62 - Profile Icon is Clicked
+2023-01-05 05:09:06,586  INFO [main] 0:63 - Change Password is Clicked
+2023-01-05 05:09:06,587  INFO [main] 0:64 - Password Change Successfully
+2023-01-05 05:09:11,981  INFO [main] 0:76 - Profile Icon is Clicked
+2023-01-05 05:09:11,984  INFO [main] 0:77 - Logout is Clicked
+2023-01-05 05:09:11,984  INFO [main] 0:78 - Logout Successfully
