@@ -1,45 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-05T05:08:40 UTC" name="TestSuite" finished-at="2023-01-05T05:09:12 UTC" duration-ms="32048">
+  <suite started-at="2023-01-09T09:25:59 IST" name="Default suite" finished-at="2023-01-09T09:26:40 IST" duration-ms="40642">
     <groups>
     </groups>
-    <test started-at="2023-01-05T05:08:40 UTC" name="Test" finished-at="2023-01-05T05:09:12 UTC" duration-ms="32048">
+    <test started-at="2023-01-09T09:25:59 IST" name="Default test" finished-at="2023-01-09T09:26:40 IST" duration-ms="40642">
       <class name="TestClasses.HomePageFunctionality">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClasses.HomePageFunctionality@1c93f6e1]" started-at="2023-01-05T05:08:40 UTC" name="setup" finished-at="2023-01-05T05:08:56 UTC" duration-ms="16117" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:25:59 IST" name="setup" finished-at="2023-01-09T09:26:16 IST" duration-ms="17210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHeaderFunctionality()[pri:0, instance:TestClasses.HomePageFunctionality@1c93f6e1]" started-at="2023-01-05T05:08:56 UTC" name="verifyHeaderFunctionality" finished-at="2023-01-05T05:08:58 UTC" duration-ms="1987" status="PASS">
+        <test-method signature="verifyHeaderFunctionality()[pri:0, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:26:16 IST" name="verifyHeaderFunctionality" finished-at="2023-01-09T09:26:18 IST" duration-ms="1931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHeaderFunctionality -->
-        <test-method signature="verifyDateTimeFunctionality()[pri:1, instance:TestClasses.HomePageFunctionality@1c93f6e1]" started-at="2023-01-05T05:08:58 UTC" name="verifyDateTimeFunctionality" finished-at="2023-01-05T05:08:58 UTC" duration-ms="409" status="PASS">
+        <test-method signature="verifyDateTimeFunctionality()[pri:1, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:26:18 IST" name="verifyDateTimeFunctionality" finished-at="2023-01-09T09:26:19 IST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDateTimeFunctionality -->
-        <test-method signature="verifyMultilingualLogoFunctionality()[pri:2, instance:TestClasses.HomePageFunctionality@1c93f6e1]" started-at="2023-01-05T05:08:58 UTC" name="verifyMultilingualLogoFunctionality" finished-at="2023-01-05T05:08:59 UTC" duration-ms="924" status="PASS">
+        <test-method signature="verifyMultilingualLogoFunctionality()[pri:2, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:26:19 IST" name="verifyMultilingualLogoFunctionality" finished-at="2023-01-09T09:26:20 IST" duration-ms="880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMultilingualLogoFunctionality -->
-        <test-method signature="verifyProfileFunctionality()[pri:3, instance:TestClasses.HomePageFunctionality@1c93f6e1]" started-at="2023-01-05T05:08:59 UTC" name="verifyProfileFunctionality" finished-at="2023-01-05T05:09:01 UTC" duration-ms="1951" status="PASS">
+        <test-method signature="verifyProfileFunctionality()[pri:3, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:26:20 IST" name="verifyProfileFunctionality" finished-at="2023-01-09T09:26:22 IST" duration-ms="2784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProfileFunctionality -->
-        <test-method signature="verifyChangePasswordFunctionality()[pri:4, instance:TestClasses.HomePageFunctionality@1c93f6e1]" started-at="2023-01-05T05:09:01 UTC" name="verifyChangePasswordFunctionality" finished-at="2023-01-05T05:09:06 UTC" duration-ms="4914" status="PASS">
+        <test-method signature="verifyNOChangePasswordFunctionality()[pri:4, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:26:22 IST" name="verifyNOChangePasswordFunctionality" finished-at="2023-01-09T09:26:26 IST" duration-ms="3834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNOChangePasswordFunctionality -->
+        <test-method signature="verifyWrongPasswordFunctionality()[pri:5, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:26:26 IST" name="verifyWrongPasswordFunctionality" finished-at="2023-01-09T09:26:30 IST" duration-ms="4094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWrongPasswordFunctionality -->
+        <test-method signature="verifyChangePasswordFunctionality()[pri:6, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:26:30 IST" name="verifyChangePasswordFunctionality" finished-at="2023-01-09T09:26:34 IST" duration-ms="3853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyChangePasswordFunctionality -->
-        <test-method signature="verifyLogoutFunctionality()[pri:5, instance:TestClasses.HomePageFunctionality@1c93f6e1]" started-at="2023-01-05T05:09:06 UTC" name="verifyLogoutFunctionality" finished-at="2023-01-05T05:09:11 UTC" duration-ms="5402" status="PASS">
+        <test-method signature="verifyLogoutFunctionality()[pri:7, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:26:34 IST" name="verifyLogoutFunctionality" finished-at="2023-01-09T09:26:39 IST" duration-ms="5353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoutFunctionality -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClasses.HomePageFunctionality@1c93f6e1]" started-at="2023-01-05T05:09:11 UTC" name="teardown" finished-at="2023-01-05T05:09:12 UTC" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClasses.HomePageFunctionality@2c1b194a]" started-at="2023-01-09T09:26:39 IST" name="teardown" finished-at="2023-01-09T09:26:40 IST" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestClasses.HomePageFunctionality -->
-    </test> <!-- Test -->
-  </suite> <!-- TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -102,6 +102,50 @@ public class HomePagePOMClass
 		submitButton.click();
 	}
 	
+	@FindBy(xpath="//span[text()='The old password field is required.']")
+	private WebElement errorCurrent;
+	public void notpassingdataChangePasswordSetting() throws InterruptedException
+	{
+		profileIcon.click();
+		changePasswordSetting.click();
+		submitButton.click();
+	}
+	public String getCurrentError()
+	{
+		return errorCurrent.getText();
+	}
+	@FindBy(xpath="//span[text()='The new password field is required.']")
+	private WebElement errorNew;
+	
+	public String getNewError()
+	{
+		return errorNew.getText();
+	}
+	
+	@FindBy(xpath="//button[@class='btn-close']")
+	private WebElement closeButton;
+	
+	public void clickChangePasswordCloseButton()
+	{
+		closeButton.click();
+	}
+	
+	@FindBy(xpath="//span[text()='The new password confirmation does not match.']")
+	private WebElement errorWrongPassword;
+	public void wrongDataChangePasswordSetting() throws InterruptedException
+	{
+		profileIcon.click();
+		changePasswordSetting.click();
+		currentPassword.sendKeys("Test@1234");
+		newPassword.sendKeys("Test@12");
+		confirmNewPassword.sendKeys("Test@14");
+		submitButton.click();
+	}
+	public String getWrongNewError()
+	{
+		return errorWrongPassword.getText();
+	}
+	
 	@FindBy(xpath="(//button[@class='dropdown-item'])[3]")
 	private WebElement logout;
 	

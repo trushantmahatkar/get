@@ -51,8 +51,37 @@ public class HomePageFunctionality extends TestBaseClass
 		log.info("My Profile Page is Opened");
 		Assert.assertTrue(true,"My Profile Functionality Fails");
 	}
-	
 	@Test(enabled=true,priority=4)	
+	public void verifyNOChangePasswordFunctionality() throws IOException, InterruptedException
+	{
+		HomePagePOMClass hp = new HomePagePOMClass(driver);
+		hp.notpassingdataChangePasswordSetting();
+		Thread.sleep(2000);
+		screenshot.ScreenShot(driver,"No Change Password");
+		String expectedCurrent="The old password field is required.";
+		String expectedNew="The new password field is required.";
+		log.info("Profile Icon is Clicked");
+		log.info("Change Password is Clicked");	
+		Assert.assertEquals(expectedCurrent,hp.getCurrentError(),"Change Password Functionality Fails");
+		Assert.assertEquals(expectedNew,hp.getNewError(),"Change Password Functionality Fails");
+		hp.clickChangePasswordCloseButton();
+	}
+	
+	@Test(enabled=true,priority=5)	
+	public void verifyWrongPasswordFunctionality() throws IOException, InterruptedException
+	{
+		HomePagePOMClass hp = new HomePagePOMClass(driver);
+		hp.wrongDataChangePasswordSetting();
+		Thread.sleep(2000);
+		screenshot.ScreenShot(driver,"Wrong Change Password");
+		String expectedNew="The new password confirmation does not match.";
+		log.info("Profile Icon is Clicked");
+		log.info("Change Password is Clicked");
+		Assert.assertEquals(expectedNew,hp.getWrongNewError(),"Change Password Functionality Fails");
+		hp.clickChangePasswordCloseButton();
+	}
+	
+	@Test(enabled=true,priority=6)	
 	public void verifyChangePasswordFunctionality() throws IOException, InterruptedException
 	{
 		HomePagePOMClass hp = new HomePagePOMClass(driver);
@@ -65,7 +94,7 @@ public class HomePageFunctionality extends TestBaseClass
 		Assert.assertTrue(true,"Change Password Functionality Fails");
 	}
 	
-	@Test(enabled=true,priority=5)
+	@Test(enabled=true,priority=7)
 	public void verifyLogoutFunctionality() throws IOException, InterruptedException
 	{
 		HomePagePOMClass hp = new HomePagePOMClass(driver);

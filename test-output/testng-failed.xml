@@ -8,10 +8,12 @@
     <classes>
       <class name="TestClasses.HomePageFunctionality">
         <methods>
+          <include name="verifyLogoutFunctionality"/>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="verifyProfileFunctionality"/>
+          <include name="verifyNOChangePasswordFunctionality"/>
           <include name="verifyChangePasswordFunctionality"/>
+          <include name="verifyWrongPasswordFunctionality"/>
         </methods>
       </class> <!-- TestClasses.HomePageFunctionality -->
     </classes>

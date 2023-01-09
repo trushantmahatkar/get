@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPomClass 
 {
-	private WebDriver driver;
+	public WebDriver driver;
 	public LoginPomClass(WebDriver driver)
 	{
 		this.driver =driver;
